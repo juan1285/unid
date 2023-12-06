@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@400;500;600;700;800 & family= Satisfacer & display=swap');
+
+
+font-family: 'Poppins', sans-serif;
+font-family: 'Satisfy', cursive;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fefff9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+
+}
+
+.menu .navbar ul li {
+    font-size: 18px;
+    padding: 20px;
+    color: #030301;
+    display: block;
+    font-weight: 600;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt h1 {
+    font-family: 'Satisfy', cursive;
+    color: #030301;
+    font-size: 70px;
+    line-height: 80px;
+    margin-bottom: 35px;
+}
+
+.header-header-txt p {
+    font-size: 16px;
+    color: #5b5b5a;
+    margin-bottom: 35px;
+}
+.btn-1 {
+    display: inline-block;
+    padding: 13px 25px;
+    background-color: #fcbe36;
+    color: #030301;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.btn-1:hover {
+    background-color: #ecb235;
+}
+.header-content {
+    display: flex;
+}
+
+.header-text {
+    width: 50px;
+}
+
+.header-img {
+    width: 50px;
+    text-align: right;
+}
+
+.header-img {
+    width: 500px;
+}
+
+.ofert {
+    background-image: url(images/up.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.ofert h2 {
+    font-size: 50px;
+    color: #030301;
+    font-family: 'Satisfy', cursive;
+    margin: 80px 0 40px 0;
+}
+
+.ofert-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+.ofert-1 img {
+    width: 200px;
+}
+
+.ofert-1 h3 {
+    font-family: 'Satisfy', cursive;
+    color: #030301;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.ofert-1 p {
+    font-size: 16px;
+    color: #5b5b5a;
+}
+
+.ingredient {
+    margin-top: -5px;
+    padding: 50px 0;
+    background-color: #f4f5f4EF;
+    text-align: center;
+}
+
+.ingredient h2 {
+    font-size: 50px;
+    color: #030301;
+    font-family: 'Satisfy', cursive;
+    margin-bottom: 50px;
+}
+
+.ingredient-1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.ingredient-info {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+.ingredient-text {
+    width: 50%;
+}
+
+.ingredient-in {
+    margin-left: 20px;
+}
+
+.ingredient-in h3 {
+    font-family: 'Satisfy', cursive;
+    color: #030301;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.ingredient-in p {
+    color: #5b5b5a;
+    font-size: 16px;
+}
+
+.ingredient-img {
+    width: 50%;
+}
+
+.ingredient-img img {
+    width: 500px;
+}
+
+.bg-ingredient {
+    background-image: url(images/bottom.svg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+
+.menu-pan h2 {
+    font-size: 50px;
+    color: #030301;
+    font-family: 'Satisfy', cursive;
+    margin-bottom: 50px;
+}
+
+.menu-content {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 35px;
+}
+
+.menu-1 img {
+    width: 250px;
+}
+
+.menu-1 h3 {
+    font-size: 40px;
+    color: #030301;
+    font-family: 'Satisfy', cursive;
+    margin-bottom: 15px;
+}
+
+.menu-1 p {
+    font-size: 16px;
+    color: #5b5b5a;
+    margin-bottom: 25px;
+}
+
+.geo {
+    padding: 100px 0;
+    display: flex;
+}
+
+.geo-1, .geo-2 {
+    width: 50%;
+}
+
+.geo-1 h2 {
+    font-size: 50px;
+    color: #030301;
+    font-family: 'Satisfy', cursive;
+    margin-bottom: 30px;
+}
+.geo-1 p {
+    font-size: 16px;
+    color: #5b5b5a;
+    margin-bottom: 15px;
+}
+
+.map {
+    width: 600px;
+    height: 450px;
+}
+
+.footer {
+    padding: 50px 0;
+    background-color: #282828;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link h3 {
+    color: #c3c3c3;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.link a {
+    color: #adadad;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.link a:hover {
+    color: #fcbe36;
+}
+
+@media(max-width:991px) {
+
+    .menu {
+        padding: 30px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #303030;
+        display: none;
+    }
+
+    .menu .navbar ul il a  {
+        width: 100%;
+    }
+
+    .menu .navbar ul li a {
+        color: #fefff9;
+    }
+
+    
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .header-content {
+        flex-direction: column;
+        padding: 100px 30px 30px;
+        text-align: center;
+    }
+
+    .header-txt {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .header-txt h1 {
+        font-size: 60px;
+        line-height: 70px;
+        margin-bottom: 25px;
+    }
+
+    .header-img {
+        width: 100px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
